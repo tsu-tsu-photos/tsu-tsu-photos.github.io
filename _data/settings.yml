@@ -1,5 +1,5 @@
 basic_settings:
-  site_title: Tsu Tsu Photos
+  site_title: ツツ
   favicon_image: /images/favicon.png
 
 header_settings:
@@ -18,7 +18,7 @@ menu_settings:
       url: '/contact'
 
 footer_settings:
-  footer_tagline: Board – a stylish full-width masonry grid Jekyll theme
+  footer_tagline: Tsu Tsu Photos – Jasmine & Jason's adventures visually documented
 
 grid_settings:
   overlay_opacity: 0.8
@@ -79,9 +79,9 @@ font_settings:
   regular_weight: 300
   bold_weight: 500
   site_title:
-    small_size: 22
-    medium_size: 26
-    large_size: 30
+    small_size: 44
+    medium_size: 52
+    large_size: 60
     weight: 500
     letter_spacing: -0.02
   menu:
