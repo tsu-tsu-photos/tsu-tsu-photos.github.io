@@ -50,11 +50,13 @@ Here's a really neat custom feature we added – galleries:
 
 <div class="gallery" data-columns="3">
 	<img src="/images/demo/square-01.jpg">
+	<img src="https://doc-0o-2o-docs.googleusercontent.com/docs/securesc/59gj4dj599m857m8l6chdh44r5dala6a/mfjkdhi9aolr6lfikhkrlu2dj2apbv8j/1570240800000/14645003396140130508/01123392981274796055/14W8na9-jrwf0Sbc9LEIq5jga4b47fE0o">
 	<img src="/images/demo/portrait-02.jpg">
 	<img src="/images/demo/square-02.jpg">
 	<img src="/images/demo/square-03.jpg">
 	<img src="/images/demo/square-04.jpg">
 	<img src="/images/demo/landscape-05.jpg">
+
 </div>
 
 Inspired by the Galleries feature from WordPress, we've made it easy to create grid layouts for your images. Just use a bit of simple HTML in your post to create a masonry grid image layout:
@@ -67,6 +69,7 @@ Inspired by the Galleries feature from WordPress, we've made it easy to create g
     <img src="/images/demo/square-03.jpg">
     <img src="/images/demo/square-04.jpg">
     <img src="/images/demo/landscape-05.jpg">
+    <img src="http://drive.google.com/uc?export=view&id=14W8na9-jrwf0Sbc9LEIq5jga4b47fE0o">
 </div>
 ```
 
@@ -86,6 +89,7 @@ A nice little feature: the carousel only advances when it is in view, so your vi
 	<img src="/images/demo/landscape-02.jpg">
 	<img src="/images/demo/landscape-03.jpg">
 	<img src="/images/demo/landscape-04.jpg">
+	<img src="http://drive.google.com/uc?export=view&id=14W8na9-jrwf0Sbc9LEIq5jga4b47fE0o">
 </div>
 
 ### What about videos?
