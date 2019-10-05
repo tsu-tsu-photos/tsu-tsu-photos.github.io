@@ -1,31 +1,37 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<title>Hank Quinlan, Horrible Cop</title>
+---
+layout: default
+title: A stylish full-width masonry grid theme.
+description: Board is a stylish full-width masonry grid theme. Made for designers, artists, photographers and developers to show off their best work.
+featured_image: /images/social.jpg
+---
 
-	</head>
-	<body>
-		<nav>
-    		<ul>
-        		<li><a href="/">Home</a></li>
-	        	<li><a href="/about">About</a></li>
-        		<li><a href="/cv">CV</a></li>
-        		<li><a href="/blog">Blog</a></li>
-    		</ul>
-		</nav>
-		<div class="container">
-    		<div class="blurb">
-        		<h1>Hi there, I'm Hank Quinlan!</h1>
-				<p>I'm best known as the horrible cop from <em>A Touch of Evil</em> Don't trust me. <a href="/about">Read more about my life...</a></p>
-    		</div><!-- /.blurb -->
-		</div><!-- /.container -->
-		
-		<img src="https://doc-0o-2o-docs.googleusercontent.com/docs/securesc/59gj4dj599m857m8l6chdh44r5dala6a/6mnabdgr7971so4s4qrqslo0vj5c9o8l/1570233600000/14645003396140130508/01123392981274796055/14W8na9-jrwf0Sbc9LEIq5jga4b47fE0o?e=view&nonce=hk0r0cpsrmh2o&user=01123392981274796055&hash=hgmkdpiqkavjg2f67vk0guoj1ltbcrd2">
-		<footer>
-    		<ul>
-        		<li><a href="mailto:hankquinlanhub@gmail.com">email</a></li>
-        		<li><a href="https://github.com/hankquinlan">github.com/hankquinlan</a></li>
-			</ul>
-		</footer>
-	</body>
-</html>
+<section class="listing">
+
+	<div class="content-wrap listing-wrap">
+
+		{% for project in site.projects reversed %}
+
+		<div class="listing-item">
+
+			<a class="listing-item__link" href="{{ project.url }}">
+
+				<div class="listing-item__image">
+					<img src="{{ project.featured_image  }}" alt="{{ project.title }}">
+				</div>
+
+				<div class="listing-item__content listing-item__content--{{ site.data.settings.grid_settings.content_alignment }}">
+					<div class="listing-item__info">
+						<h2 class="listing-item__title">{{ project.title }}</h2>
+						<p class="listing-item__subtitle">{{ project.subtitle }}</p>
+					</div>
+				</div>
+
+			</a>
+
+		</div>
+
+		{% endfor %}
+
+	</div>
+
+</section>
