@@ -18,7 +18,7 @@ menu_settings:
       url: '/contact'
 
 footer_settings:
-  footer_tagline: Tsu Tsu Photos – Jasmine & Jason's adventures visually documented
+  footer_tagline: Tsu Tsu Photos – Jasmine & Jason's adventures documented visually
 
 grid_settings:
   overlay_opacity: 0.8
